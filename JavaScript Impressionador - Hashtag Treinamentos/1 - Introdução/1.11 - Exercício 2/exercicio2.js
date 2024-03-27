@@ -6,7 +6,6 @@ let numero = 4;
 let indice = listaNumerica.indexOf(numero);
 console.log('Resultado sem o for, com busca de índice');
 console.log(`O valor do elemento ${indice}, da minha lista é ${listaNumerica[indice]}`);
-
 console.log('Resultado com o for');
 for(let i = 0; i < listaNumerica.length; i++){
     console.log(`O valor do elemento ${i}, da minha lista é ${listaNumerica[i]}`);
